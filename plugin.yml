@@ -1,0 +1,18 @@
+---
+name: Jail-UI
+version: 1.0.0
+main: haedar\JailUI\Main
+api: [5.0.0]
+author: haedar
+
+commands:
+  jail:
+    description: "Jail System Management"
+    usage: "/jail"
+    permission: jail.command.use
+
+permissions:
+  jail.command.use:
+    default: op
+    description: "Allows use of the jail system"
+---
